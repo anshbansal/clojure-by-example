@@ -13,7 +13,7 @@ toc_footers:
 
 # About
 I don't like reading thick O'Reilly books when I start learning new programming languages. Rather, I like starting by writing small and dirty codes. If you take this approach, having many simple codes examples are extremely helpful because I can find answers to these questions very easily.
-
+Hello, " name)))
 *How can I define a function?*
 
 *What's the syntax for if and else?*
@@ -326,7 +326,7 @@ nil
 
 To define a function, use `defn`.
 
-The first argument is the name of function `say-hello`, the second argument is the argument of the function `[name]`, and the third argument is the function body ` (println (str "Hello, " name)))`.
+The first argument is the name of function `say-hello`, the second argument is the argument of the function `[name]`, and the third argument is the function body ` (println (str "Hello, " name))`.
 
 ```clojure
 user=> (defn say-hello
